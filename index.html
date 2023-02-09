@@ -1,5 +1,5 @@
 <html>
-  <script src="jquery-3.6.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
   <style type="text/css">
     body {text-align:center; vertical-align:middle; font-size:large; font-family: Verdana, sans-serif;}
     ul {list-style:none}
@@ -13,11 +13,11 @@
   <script>
     let numRows = 3;
     let numColumns = 3;
-    for (let i = 0; i < numRows)
+    for (let i = 0; i < numRows; i++)
     {
       $("#tictactoe").append("<row></row>");
     }
-    for (let i = 0; i < numColumns)
+    for (let n = 0; n < numColumns; n++)
     {
       $("row").append("<li>___</li>");
     }
